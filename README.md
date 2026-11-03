@@ -6,7 +6,6 @@ Gratuito, de código aberto (MIT) e sem instalação: é só abrir o `.exe`.
 <p align="center">
   <a href="https://github.com/DarlingSz/PulseFPS-Download/releases/latest"><img alt="Baixar" src="https://img.shields.io/badge/BAIXAR-PulseFPS%201.0-d4172e?style=for-the-badge&logo=windows&logoColor=white"></a>
   &nbsp;
-  <a href="https://github.com/DarlingSz/PulseFPS"><img alt="Código-fonte" src="https://img.shields.io/badge/c%C3%B3digo--fonte-GitHub-181717?style=for-the-badge&logo=github"></a>
 </p>
 
 ![Janela principal](imagens/janela-principal.png)
