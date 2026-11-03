@@ -1,7 +1,7 @@
 # PulseFPS
 
 **Otimização automática do BlueStacks para Free Fire: mais FPS e a sensibilidade certa para dar capa (Full HS).**
-Gratuito, de código aberto (MIT) e sem instalação: é só abrir o `.exe`.
+Gratuito, de código fechado (por enquanto) (MIT) e sem instalação: é só abrir o `.exe`.
 
 <p align="center">
   <a href="https://github.com/DarlingSz/PulseFPS-Download/releases/latest"><img alt="Baixar" src="https://img.shields.io/badge/BAIXAR-PulseFPS%201.0-d4172e?style=for-the-badge&logo=windows&logoColor=white"></a>
