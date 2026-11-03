@@ -1,0 +1,40 @@
+PULSEFPS 1.0 - otimizador para BlueStacks 5 / Free Fire (código aberto, licença MIT)
+=====================================================================================
+
+O QUE FAZ
+  1  OTIMIZAR FPS      mede o FPS, aplica ajustes com backup e libera o limite do BlueStacks até 240 FPS.
+  2  CALIBRAR CAPA     no modo Treinamento, mova a mira do peito até a cabeça do boneco por 60 s (sem atirar,
+                       com o mouse solto). O app mede e calcula a sensibilidade VERTICAL para a puxada parar na capa.
+  3  APLICAR E REINICIAR   grava a sensibilidade, reinicia o BlueStacks e o Free Fire e mede o FPS de novo.
+  Botões pequenos: Como usar · Perfil de FPS · Mouse: DPI e Hz (inclui o Mouse Fix completo) · Desfazer tudo.
+
+COMO USAR
+  1. Abra o PulseFPS.exe (o Windows pede confirmação de administrador: é necessário).
+  2. Abra o BlueStacks e o Free Fire. Siga os botões 1, 2 e 3 na ordem. O tutorial está no botão "Como usar".
+
+O QUE ELE ALTERA NO SEU PC (tudo com backup; "Desfazer tudo" restaura)
+  - Windows: Game Mode ligado, Game DVR desligado, GPU dedicada para o BlueStacks, plano de energia de alto desempenho,
+    prioridade do emulador acima do normal, ponteiro do mouse 1:1 sem aceleração.
+  - Mouse Fix completo: fila de dados do mouse e do teclado = 20 (padrão do Windows: 100; vale depois de reiniciar o Windows)
+    e repetição de teclas 200 ms / 15 (liga o Filtro de teclas). O ganho disso na mira NÃO foi medido; se notar pulos
+    de mira, use "Desfazer tudo".
+  - BlueStacks (bluestacks.conf): FPS máximo 240, high FPS, vsync desligado, contador de FPS, e PERFIL DE DISPOSITIVO
+    "ASUS ROG Phone 5" (para o jogo poder oferecer 90 FPS). Não há garantia de que o seu Free Fire libere 90 FPS;
+    se não ajudar, troque para "Original do BlueStacks" no botão "Perfil de FPS".
+  - Controles do BlueStacks: só o número de sensibilidade (e a proporção vertical) do controle de câmera, com backup.
+  Não desativa Defender, Firewall, Windows Update nem serviços. Não lê nem altera a memória ou os arquivos do jogo.
+  O app guarda dados só no seu PC: %LOCALAPPDATA%\PulseFPS (backups, estado, resultado da última calibração).
+
+LIMITES (leia)
+  - Testado só em BlueStacks 5 (pasta BlueStacks_nxt) com Free Fire (com.dts.freefireth), Windows 10, 1 PC.
+  - Não promete "mira perfeita": tremor da mão, mouse de 125 Hz e o próprio jogo (recuo, assistência de mira) ficam fora do alcance.
+  - Não troca o DPI nem a taxa (Hz) do mouse: isso é do firmware do mouse (use o programa do fabricante).
+  - A calibração precisa que o PulseFPS esteja como administrador se o BlueStacks estiver como administrador.
+  - Reiniciar fecha o BlueStacks: a partida em andamento termina.
+
+AVISOS
+  - O arquivo não é assinado digitalmente: o SmartScreen e alguns antivírus podem avisar (falso positivo comum em programas
+    feitos com PyInstaller). Confira o SHA-256 em SHA256.txt e baixe só de quem você confia. O código-fonte (PulseFPS.py)
+    é aberto e pode ser auditado e recompilado (veja o README.md).
+  - Projeto independente, sem ligação com a Garena (Free Fire) nem com a BlueStacks. Nomes e a imagem do boneco de treino
+    pertencem aos seus donos. Use por sua conta e risco; sem garantia (licença MIT).
