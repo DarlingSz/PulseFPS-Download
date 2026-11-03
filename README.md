@@ -37,7 +37,7 @@ Também: **Perfil de FPS** (perfil de dispositivo para tentar liberar 90 FPS), *
 ## Segurança e confiança
 - Tudo que o app altera tem **backup**, e **Desfazer tudo** restaura. Os dados ficam só no seu PC (`%LOCALAPPDATA%\PulseFPS`).
 - O arquivo **não é assinado digitalmente**: o SmartScreen ou o antivírus podem avisar (falso positivo comum em programas feitos com
-  PyInstaller). Confira o hash e, se preferir, **audite e compile você mesmo** o [código-fonte](https://github.com/DarlingSz/PulseFPS).
+  PyInstaller).
 - Testado em **BlueStacks 5 + Free Fire, Windows 10**, em um único PC. Em outras versões pode não funcionar.
 
 | Arquivo | SHA-256 |
