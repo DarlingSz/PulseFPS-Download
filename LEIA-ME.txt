@@ -34,7 +34,6 @@ LIMITES (leia)
 
 AVISOS
   - O arquivo não é assinado digitalmente: o SmartScreen e alguns antivírus podem avisar (falso positivo comum em programas
-    feitos com PyInstaller). Confira o SHA-256 em SHA256.txt e baixe só de quem você confia. O código-fonte (PulseFPS.py)
-    é aberto e pode ser auditado e recompilado (veja o README.md).
+    feitos com PyInstaller). Confira o SHA-256 em SHA256.txt e baixe só de quem você confia.
   - Projeto independente, sem ligação com a Garena (Free Fire) nem com a BlueStacks. Nomes e a imagem do boneco de treino
     pertencem aos seus donos. Use por sua conta e risco; sem garantia (licença MIT).
